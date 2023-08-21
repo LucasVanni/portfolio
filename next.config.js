@@ -1,5 +1,6 @@
-const withImages = require('next-images');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  transpilePackages: ["three"],
+};
 
-module.exports = withImages({
-    esModule: true,
-});
+module.exports = nextConfig;
