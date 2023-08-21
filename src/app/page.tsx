@@ -9,7 +9,14 @@ export default function Home() {
         <Background />
       </div>
 
-      <h1 className="relative z-10">AAAAAAAA</h1>
+      <div className="relative z-10 flex justify-center items-center w-full h-full">
+        <div
+          style={{ backgroundColor: "rgba(119, 140, 153, 0.3)" }}
+          className="rounded-md p-5"
+        >
+          <h1 className="text-[50px]">Coming soon...</h1>
+        </div>
+      </div>
     </div>
   );
 }
